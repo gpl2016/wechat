@@ -1,3 +1,4 @@
+<!--
 <dl class="menu">
   <dt data-index="0" bindtap="tapMainmenu" class="{{currentTab==0?'select':'default'}}">全部</dt>
   <dd class="{{subMenuDisplay[0]}}">
@@ -12,3 +13,19 @@
     </ul>
   </dd>
 </dl>
+-->
+<dl class="menu">
+     <dt data-index="0" bindtap="tapMainMenu" class="{{currentTab==0?'select':'defalut'}}">全部</dt>
+     <dd class="{{subMenuDispaly[0]}}">
+         <ul>
+           <li class="select">全部</li>
+          <li>校本部</li>
+    <li>南校升华</li>
+    <li>新校区</li>
+    <li>铁道校区</li>
+    <li>湘雅新校区</li>
+    <li>湘雅老校区</li>
+         </ul>
+     </dd>
+     
+  </dl>

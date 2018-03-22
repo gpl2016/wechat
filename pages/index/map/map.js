@@ -1,5 +1,7 @@
 Page({
   data: {
+    subMenuDispaly: initSubMenuDisplay(),
+    currentTab: -1,
     latitude: 28.141689110545233 ,
     longitude: 112.98706770074205,
     includepoints: [
@@ -1103,5 +1105,26 @@ Page({
 
       },
     })
+  }, 
+  tapMainMenu: function (e) {
+    console.log(e);
+    var index = parseInt(e.currentTarget.dataset.index);
+    console.log(index);
+    var newSubMenuDisplay = initSubMenuDisplay();
+    if (this.data.subMenuDispaly[index] == 'hidden') {
+      newSubMenuDisplay[index] = 'show';
+      this.setData({ currentTab: index });
+    } else {
+      newSubMenuDisplay[index] = 'hidden';
+      this.setData({ currentTab: -1 });
+    }
+    this.setData({ subMenuDispaly: newSubMenuDisplay });
   }
+  
+
+
+
 })
+function initSubMenuDisplay() {
+  return ['hidden', 'hidden'];
+}
