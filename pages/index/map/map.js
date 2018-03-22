@@ -1106,7 +1106,7 @@ Page({
       },
     })
   }, 
-  tapMainMenu: function (e) {
+  tapMainMenu: function (e) {//
     console.log(e);
     var index = parseInt(e.currentTarget.dataset.index);
     console.log(index);
@@ -1121,9 +1121,6 @@ Page({
     this.setData({ subMenuDispaly: newSubMenuDisplay });
   }
   
-
-
-
 })
 function initSubMenuDisplay() {
   return ['hidden', 'hidden'];
