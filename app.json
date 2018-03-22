@@ -2,13 +2,14 @@
   "pages":[
     "pages/index/index",
     "pages/me/me",
-    "pages/index/map/map"
+    "pages/index/map/map",
+    "pages/index/liebiao/liebiao"
     
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#00BFFF",
-    "navigationBarTitleText": "云麓谷",
+    "navigationBarTitleText": "中南云麓谷",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{

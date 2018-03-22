@@ -23,12 +23,20 @@ Page({
   },
 
   navBtn: function(e) {
+    console.log(e);
     var id = e.currentTarget.id;
+   
     if (id == "0") {
       wx.navigateTo({
         url: '../index/map/map'
-      })
-    }
+      })}
+    if (id == "1") {
+       wx.navigateTo({
+        url: '../index/liebiao/liebiao'
+        })
+      }
+
+    
   },
 
   loadNavData: function() {
