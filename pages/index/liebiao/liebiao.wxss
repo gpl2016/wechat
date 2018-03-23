@@ -128,5 +128,5 @@
 }
 /*二级菜单高亮样式*/
 .menu li.highlight{
-  background-color: #f4f4f4;
+  background-color: green;
 }

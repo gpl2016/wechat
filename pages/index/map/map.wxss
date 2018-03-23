@@ -78,6 +78,7 @@
 */
 /*总菜单容器*/
 .menu {
+
    display: block;
   height: 38px;
 }
@@ -104,7 +105,7 @@
   /*hack*/
   top:39px;
   left:0;
-  z-index:999;
+  
 }
 
 /*二级菜单普通样式*/
@@ -128,5 +129,5 @@
 }
 /*二级菜单高亮样式*/
 .menu li.highlight{
-  background-color: #f4f4f4;
+  background-color: green;
 }

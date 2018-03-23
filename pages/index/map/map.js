@@ -20,7 +20,7 @@ function initSubMenuHighLight() {
 Page({
   data: {
     subMenuDispaly: initSubMenuDisplay(),
-    currentTab: -1,
+    currentTab: 2,
     latitude: 28.141689110545233 ,
     longitude: 112.98706770074205,
     includepoints: [
