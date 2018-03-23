@@ -1076,9 +1076,9 @@ Page({
       iconPath: '../../../images/map/dingwei.png',
       position: {
         left: 0,
-        top: 300 - 50,
-        width: 50,
-        height: 50
+        top: 560 - 50,
+        width: 40,
+        height: 40
       },
       clickable: true
 
