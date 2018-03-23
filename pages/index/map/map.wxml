@@ -14,6 +14,13 @@
 
 </dl> -->
 
+
+
+<map id="map" longitude="112.9351600000" latitude="28.1578300000" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;">
+
+
+</map>
+<text>\n \n \n \n \n \n \n \n \n</text>
 <dl class="menu">
   <dt data-index="0" bindtap="tapMainMenu">校区</dt>
   <dt data-index="1" bindtap="tapMainMenu">实用功能</dt>
@@ -38,8 +45,3 @@
     </ul>
   </dd>
 </dl>
-<text>\n \n \n \n \n \n \n \n \n</text>
-<map id="map" longitude="112.9351600000" latitude="28.1578300000" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 100vh;">
-
-
-</map>
