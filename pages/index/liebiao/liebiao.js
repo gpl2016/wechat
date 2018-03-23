@@ -52,6 +52,7 @@ Page({
    
   },
   tapMainMenu: function (e) {
+    console.log(e);
     //    获取当前显示的一级菜单标识
     var index = parseInt(e.currentTarget.dataset.index);
     // 生成数组，全为hidden的，只对当前的进行显示
