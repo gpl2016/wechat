@@ -3,8 +3,9 @@
     "pages/index/index",
     "pages/me/me",
     "pages/index/map/map",
-    "pages/index/liebiao/liebiao"
-    
+    "pages/index/liebiao/liebiao",
+    "pages/part/cet/cet",
+    "pages/part/cet/cet_result"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -27,5 +28,8 @@
       "selectedIconPath": "images/me.png",
       "text": "我的"
     }]
-  }
+  },
+    "networkTimeout": {
+        "request": 5000
+    }
 }

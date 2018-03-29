@@ -26,16 +26,23 @@ Page({
     console.log(e);
     var id = e.currentTarget.id;
    
-    if (id == "0") {
-      wx.navigateTo({
-        url: '../index/map/map'
-      })}
-    if (id == "1") {
-       wx.navigateTo({
-        url: '../index/liebiao/liebiao'
-        })
-      }
-
+    switch (id) {
+        case "0":
+            wx.navigateTo({
+                url: '../index/map/map'
+            })
+            break
+        case "1":
+            wx.navigateTo({
+                url: '../index/liebiao/liebiao'
+            })
+            break
+        case "2":
+            wx.navigateTo({
+                url: '../part/cet/cet',
+            })
+            break
+    }
     
   },
 
